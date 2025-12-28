@@ -1,4 +1,4 @@
-import type { Product } from "./product";
+import type { Product } from "./produtos";
 
 export function hasStock(product: Product): boolean {
   return product.stock > 0;
